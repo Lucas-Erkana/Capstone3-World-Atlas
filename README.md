@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Capstone3-World-Atlas- <a name="about-project"></a>
+# 📖 Capstone3 World Atlas <a name="about-project"></a>
 
 >This React capstone project is about building a mobile web application to check a list of metrics  that you will create making use of React and Redux.
 
