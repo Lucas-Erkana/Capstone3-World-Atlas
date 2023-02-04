@@ -205,6 +205,6 @@ Feel free to check the [issues page](https://github.com/Lucash2022/Capstone3-Wor
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Lucash2022/Capstone3-World-Atlas/blob/dev/LICENSE) licensed.
+This project is [MIT](https://github.com/Lucash2022/Capstone3-World-Atlas/blob/develop/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
