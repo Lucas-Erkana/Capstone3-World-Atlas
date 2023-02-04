@@ -39,7 +39,7 @@
 
 >In this simple React Web Application developed to display a list of countries and their details fetched from an API. the project makes use of key React features such as Redux, Thunk and Loggers.
 
->**[World Atlas]**  is a project that utilizes an API to retrieve information about countries and continents, which is then displayed through the use of React functions. The project aims to provide an easy-to-use and interactive interface for users to explore geographical data..
+>**World Atlas**  is a project that utilizes an API to retrieve information about countries and continents, which is then displayed through the use of React functions. The project aims to provide an easy-to-use and interactive interface for users to explore geographical data..
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -174,7 +174,7 @@ Example:
 
 ## 🚀 **About Me**
 
-I'm full stack software developer, Computer science, and Microverse student.
+I'm full-stack software developer and Microverse student.
 **Stack:** JavaScript, Bootstrap, Ruby, Rails, React, Redux. Available for hire!
 
 
