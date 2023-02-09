@@ -1,7 +1,7 @@
 :root {
-  --dark: #2B65EC;
-  --mid: #2B65EC;
-  --light: #2B65EC;
+  --dark: #2b65ec;
+  --mid: #2b65ec;
+  --light: #2b65ec;
 }
 
 /* Box sizing rules */
@@ -128,11 +128,11 @@ header {
 }
 
 .country-item:nth-of-type(4n+2) {
-  background-color: #2B65EC;
+  background-color: #2b65ec;
 }
 
 .country-item:nth-of-type(4n+3) {
-  background-color: #2B65EC;
+  background-color: #2b65ec;
 }
 
 .country-item > a {

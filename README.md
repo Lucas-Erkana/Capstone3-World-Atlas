@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Capstone3 World Atlas <a name="about-project"></a>
+# 📖 Capstone 3 World Atlas <a name="about-project"></a>
 
 >This React capstone project is about building a mobile web application to check a list of metrics  that you will create making use of React and Redux.
 
@@ -58,19 +58,6 @@
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -84,7 +71,7 @@
 
 > Add a link to your deployed project.
 
-- <a href="#" target="_blank">Live Demo Link</a>
+- <a href="https://world-atlas.onrender.com" target="_blank">Live Demo Link</a>
 
 
 - **Video Link**
