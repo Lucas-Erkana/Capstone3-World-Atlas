@@ -1,7 +1,7 @@
 :root {
-  --dark: #23f118;
-  --mid: #23f118;
-  --light: #23f118;
+  --dark: #2B65EC;
+  --mid: #2B65EC;
+  --light: #2B65EC;
 }
 
 /* Box sizing rules */
@@ -37,7 +37,7 @@ body {
 /* A elements get default styles */
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(18, 17, 17);
 }
 
 /* Make images easier to work with */
@@ -128,11 +128,11 @@ header {
 }
 
 .country-item:nth-of-type(4n+2) {
-  background-color: #23f118;
+  background-color: #2B65EC;
 }
 
 .country-item:nth-of-type(4n+3) {
-  background-color: #23f118;
+  background-color: #2B65EC;
 }
 
 .country-item > a {
