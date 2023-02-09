@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the HomePage component The HomePage component should match the snapshot:  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="map"
+        data-testid="map-div"
+      >
+        <img
+          alt="World Map"
+          src="carte-du-monde.png"
+        />
+      </div>
+      <select
+        data-testid="select"
+        id="continents"
+        name="continents"
+      >
+        <option
+          class="hidden"
+          disabled=""
+          selected=""
+          value="Select a continent"
+        >
+          Select a continent
+        </option>
+        <option
+          value="Africa"
+        >
+          Africa
+        </option>
+        <option
+          value="Europe"
+        >
+          Europe
+        </option>
+        <option
+          value="Asia"
+        >
+          Asia
+        </option>
+        <option
+          value="North America"
+        >
+          North America
+        </option>
+        <option
+          value="South America"
+        >
+          South America
+        </option>
+        <option
+          value="Oceania"
+        >
+          Oceania
+        </option>
+        <option
+          value="Antarctica"
+        >
+          Antarctica
+        </option>
+      </select>
+      <ul
+        class="countries-list"
+        data-testid="countries-list"
+      >
+        <h2>
+          No continent selected
+        </h2>
+      </ul>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="map"
+      data-testid="map-div"
+    >
+      <img
+        alt="World Map"
+        src="carte-du-monde.png"
+      />
+    </div>
+    <select
+      data-testid="select"
+      id="continents"
+      name="continents"
+    >
+      <option
+        class="hidden"
+        disabled=""
+        selected=""
+        value="Select a continent"
+      >
+        Select a continent
+      </option>
+      <option
+        value="Africa"
+      >
+        Africa
+      </option>
+      <option
+        value="Europe"
+      >
+        Europe
+      </option>
+      <option
+        value="Asia"
+      >
+        Asia
+      </option>
+      <option
+        value="North America"
+      >
+        North America
+      </option>
+      <option
+        value="South America"
+      >
+        South America
+      </option>
+      <option
+        value="Oceania"
+      >
+        Oceania
+      </option>
+      <option
+        value="Antarctica"
+      >
+        Antarctica
+      </option>
+    </select>
+    <ul
+      class="countries-list"
+      data-testid="countries-list"
+    >
+      <h2>
+        No continent selected
+      </h2>
+    </ul>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
