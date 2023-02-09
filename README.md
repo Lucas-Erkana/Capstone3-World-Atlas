@@ -1,71 +1,197 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+  <h2><b>World Atlas</b></h2>
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- TABLE OF CONTENTS -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 📗 Table of Contents
 
-### `npm test`
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- PROJECT DESCRIPTION -->
 
-### `npm run build`
+# 📖 Capstone 3 World Atlas <a name="about-project"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+>This React capstone project is about building a mobile web application to check a list of metrics  that you will create making use of React and Redux.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+>In this simple React Web Application developed to display a list of countries and their details fetched from an API. the project makes use of key React features such as Redux, Thunk and Loggers.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+>**World Atlas**  is a project that utilizes an API to retrieve information about countries and continents, which is then displayed through the use of React functions. The project aims to provide an easy-to-use and interactive interface for users to explore geographical data..
 
-### `npm run eject`
+## 🛠 Built With <a name="built-with"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Tech Stack <a name="tech-stack"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- HTML
+- CSS
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [React and Redux]((https://github.com/microverseinc/curriculum-javascript/blob/main/todo-list/lessons/webpack_v1_1.md))
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- Features -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+<!-- LIVE DEMO -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🚀 Live Demo <a name="live-demo"></a>
 
-### Making a Progressive Web App
+> Add a link to your deployed project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- <a href="https://world-atlas.onrender.com" target="_blank">Live Demo Link</a>
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Video Link**
 
-### Deployment
+ https://www.loom.com/share/1383f8a4c9c84e4ab68749762c322270
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build` fails to minify
+<!-- GETTING STARTED -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Capstone3-World-Atlas
+## 💻 Getting Started <a name="getting-started"></a>
+
+- Create a local directory that you want to clone the repository.
+
+- Open the command prompt in the created directory.
+
+- On the terminal run this command git clone https://github.com/Lucash2022/Capstone3-World-Atlas.git
+
+- Go to the repository folder using command prompt cd Bookstore.
+
+- Install the dev dependencies for linters run npm install.
+
+### Prerequisites
+
+- Basic Knowledge of HTML & CSS
+- Basic Knowledge of [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) & [ES6](https://github.com/microverseinc/curriculum-javascript/blob/main/todo-list/lessons/lesson_es6-what_is_it_about.md) syntax
+- Basic Knowledge of [React & Redux Setup](https://reactjs.org/docs/getting-started.html) setup
+
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+To make use of this project, kindly run any of the following commands.
+
+```
+git clone https://github.com/Lucash2022/Capstone3-World-Atlas.git
+```
+
+```
+## **INSTALL**
+```
+npm install
+```
+```
+## **Run On Server**
+To run the project on server, run below command
+
+```
+npm start
+```
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Author
+
+<a name="authors"></a>
+
+<h4>Lucas Erkana</h4>
+
+<img src="/images/github.svg" alt="logo" width="18"  height="18" />[githubhandle](https://github.com/Lucash2022)
+<br>
+<img src="/images/twitter.svg" alt="logo" width="18"  height="18" /> [twitterhandle](https://twitter.com/@Lucas_David_22)
+<br>
+<img src="/images/linkedin.svg" alt="logo" width="18"  height="18" />[linkedIn](https://www.linkedin.com/in/lucas-erkana/)
+  <br>
+<img src="/images/facebook.svg" alt="logo" width="18"  height="18" />[facebook](https://www.facebook.com/lucash.toni)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🚀 **About Me**
+
+I'm full-stack software developer and Microverse student.
+**Stack:** JavaScript, Bootstrap, Ruby, Rails, React, Redux. Available for hire!
+
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Lucash2022/Capstone3-World-Atlas/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+- I would like to give Credit to 🙏 [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), as required by the [Creative Commons License](https://creativecommons.org/licenses/).
+- [Microverse](https://www.microverse.org/)
+- Thanks to the Microverse team for the great curriculum.
+- Hat tip to anyone whose code was used
+- A great thanks to My coding partners, morning session team, and standup team Partners for their contributions.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/Lucash2022/Capstone3-World-Atlas/blob/develop/LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

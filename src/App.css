@@ -1,38 +1,193 @@
-.App {
-  text-align: center;
+:root {
+  --dark: #2b65ec;
+  --mid: #2b65ec;
+  --light: #2b65ec;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  /* border: solid 1px blueviolet; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
   min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  color: #000;
+  background-color: var(--mid);
+  font-size: 1.1rem;
+}
+
+/* A elements get default styles */
+a {
+  text-decoration: none;
+  color: rgb(18, 17, 17);
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+select {
+  font: inherit;
+  padding: 10px;
+}
+
+.Application {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.header-tag {
+  font-weight: 800;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header-controls {
+  display: flex;
+  gap: 2rem;
+  padding-right: 1%;
+}
+
+.link {
+  font-size: 20px;
+}
+
+.map {
+  background-color: var(--light);
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.map > img {
+  width: 80%;
+}
+
+.countries-list {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.countries-list h2 {
+  text-align: center;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.country-item {
+  width: 33.333333%;
+  padding: 10px;
+  display: flex;
+  align-items: stretch;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.country-item:nth-of-type(4n+2) {
+  background-color: #2b65ec;
+}
+
+.country-item:nth-of-type(4n+3) {
+  background-color: #2b65ec;
+}
+
+.country-item > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flag {
+  width: 150px;
+  height: 100px;
+  border: solid 2px black;
+}
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.country-info > h1 {
+  text-align: center;
+}
+
+.bold {
+  font-weight: 800;
+  padding-left: 10px;
+  color: #000;
+}
+
+.fa-house {
+  color: #000;
+}
+
+.languages,
+.borders {
+  display: flex;
+}
+
+.languages > ul,
+.currencies > ul,
+.borders > ul {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.currencies > ul {
+  flex-direction: column;
+}
+
+.symbol {
+  padding-left: 10px;
 }
