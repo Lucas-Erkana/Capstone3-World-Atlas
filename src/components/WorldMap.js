@@ -31,7 +31,7 @@ const WorldMap = () => {
       continent = <img src={oceania} alt="Oceania continent" />;
       break;
     case 'Antarctica':
-      continent = <img src={antarctica} alt="Antarctican continent" />;
+      continent = <img src={antarctica} alt="Antarctica continent" />;
       break;
     default:
       continent = <img src={worldMap} alt="World Map" />;
