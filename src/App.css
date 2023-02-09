@@ -146,6 +146,7 @@ header {
 .flag {
   width: 150px;
   height: 100px;
+  border: solid 2px black;
 }
 
 .country-info {
